@@ -1,27 +1,48 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 <script src="./script.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
 
 <html>
 <body>
-
-    <form id="form" name=formName onsubmit="return false">
-        <label for="inputFieldText">Enter city:</label><br>
-        <input type="text" id="inputField" name="fname"><br>
-        <button onclick="getCity()"> Get City</button>
-    </form>
-    <label id="countryText"> Country: </label><label id="countryText2"> </label><br>
-
-    <label id="tempText"> Temperature: </label><label id="tempText2"> </label><br>
-
-    <label id="weatherText"> Weather: </label><label id="weatherText2"> </label><br>
     
-
-    <form onsubmit="return false">
-        <label for="inputField2">Enter city:</label><br>
-        <input type="text" id="inputField2" name="fname2"><br>
-        <button onclick="getCity2()"> Get City</button>
+    <form id="form" name=formName onsubmit="return false">
+        <h1 id="header">Pokemon </h1>
+        <label for="inputFieldText">Enter pokemon name:</label><br>
+        <input type="text" id="inputField" name="fname"><br>
+        <button onclick="getPokemon()"> Get Pokemon</button>
     </form>
-    <label id="tempText2"> idk</label><br>
+    <img src="" id="picture">
+    <br>
+<div>
+
+
+</div>
+    <label style="text-transform: capitalize;" id="name"></label><br><br>
+    <label id="description"></label><br><br><br>
+    <label style="text-transform: capitalize; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;" id="type1"></label><br>
+    <label style="text-transform: capitalize; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;" id="type2"></label><br><br>
+
+    <label style="text-transform: capitalize;" id="hp"></label><br>
+    <label style="text-transform: capitalize;" id="attack"></label><br>
+    <label style="text-transform: capitalize;" id="defense"></label><br>
+    <label style="text-transform: capitalize;" id="specialAttack"></label><br>
+    <label style="text-transform: capitalize;" id="specialDefense"></label><br>
+    <label style="text-transform: capitalize;" id="speed"></label><br> <br>
+    
+    <label id="listTitle"> </label>
+    <ul id="weaknessList">
+
+    </ul> <br>
+
+    <label id="listTitle2"> </label>
+    <ul id="resistList">
+
+    </ul> <br>
+
+    <label id="listTitle3"> </label>
+    <ul id="immuneList">
+
+    </ul>
 </body>
 </html>
 

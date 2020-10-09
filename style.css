@@ -1,0 +1,72 @@
+.psychic{
+    color: palevioletred
+}
+.normal{
+    color: gainsboro
+}
+.fire{
+    color: red
+}
+.water{
+    color: blue
+}
+.grass{
+    color: mediumseagreen
+}
+.ice{
+    color: cyan
+}
+.bug{
+    color: greenyellow
+}
+.flying{
+    color: lavender
+}
+.dragon{
+    color: blueviolet
+}
+.fairy{
+    color: pink
+}
+.ghost{
+    color: blueviolet
+}
+.dark{
+    color: black
+}
+.steel{
+    color: gray
+}
+.ground{
+    color: burlywood
+}
+.rock{
+    color: saddlebrown
+}
+.poison{
+    color: purple
+}
+.fighting{
+    color: firebrick
+}
+.electric{
+    color: yellow
+}
+.hp{
+    color: red
+}
+.atk{
+    color: orange
+}
+.def{
+    Color: C71585
+}
+.spatk{
+    color: cornflowerblue;
+}
+.spdef{
+    color: lightgreen
+}
+.speed{
+    color: pink
+}
